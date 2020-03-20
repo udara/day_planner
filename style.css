@@ -1,24 +1,16 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1;
-}
-
-textarea{
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+  background: #fff;
 }
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-color: #2483bb;
+  color: white;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid #caced1;
 }
 
 .description{
@@ -30,31 +22,20 @@ textarea{
   border-radius: 15px;
 }
 
+.container
+{
+  padding: 0 25px 25px 25px;
+}
+
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   /*border-top: 1px dashed #000000;*/
-}
-
-.past {
-  background-color: #d3d3d3;
-  color: white;
-}
-
-.present {
-  background-color: #ff6961;
-  color: white;
-}
-
-.future {
-  background-color: #77dd77;
-  color: white;
 }
 
 .saveBtn {
@@ -65,18 +46,18 @@ textarea{
   color: white;
 }
 
-.saveBtn i:hover {
+.btn_save i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
 
-.row { border-bottom: 1px solid #fff !important;}
-.hour { text-align: left; background-color: #06AED5;}
-.btn_save{ background-color: aquamarine; cursor: pointer; text-align:center;}
+.hour { text-align: left; background-color: #424242; color: #fff; border-radius: 25px 0 0 25px; border: #caced1 solid 1px;}
+.btn_save{  background-color: #e5e9ec; text-align: right; color: #bdc4c9; border-radius: 0 25px 25px 0; border: #caced1 solid 1px; box-shadow: 10px 10px 8px #e7e2e2;}
 .hour, .btn_save{line-height: 70px;}
+.hourly_events {border: #caced1 solid 1px; font-weight: 300; }
 .hourly_events, .hour, .btn_save {padding:10px}
-.fa-floppy-o {font-size: xx-large;}
+.fa-floppy-o {font-size: 2.5em; cursor: pointer; font-weight: 300;}
 
-.past{background-color: #d3d3d3; color: #000000;}
-.present{background-color: #ff6961; color:#fff;}
-.future{background-color: #77dd77; color:#fff; }
+.past{background-color: #def5fd; color: #7a7f81;}
+.present{background-color: #9cd4e8; color:def5fd;}
+.future{background-color: #7bbdd3; color:#fff; }
